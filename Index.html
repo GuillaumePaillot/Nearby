@@ -141,6 +141,24 @@
       <p>Resize this responsive page to see the effect!</p>
     </div>
 
+    <div id="storelocatorwidget" style="width:100%;"><p>La carte des cours se charge...</p></div>
+
+    <script type="text/javascript" src="//cdn.storelocatorwidgets.com/widget/mapbox-gl-geocoder.js"></script>
+
+    <script type="text/javascript" src="//cdn.storelocatorwidgets.com/widget/mapbox-gl.js"></script>
+
+    <script type="text/javascript" id="storelocatorscript" data-uid="837630d4ff2665dfed4acd67ebf49746" data-platform="Mapbox" src="//cdn.storelocatorwidgets.com/widget/widget.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+    <script>
+        function storeLocatorLoadCompleteHandler() {
+        	$("#storelocator-search-bar-row1").insertAfter("#storelocator-filter_checkbox");
+        }
+    </script>
+
     <div class="container" style="margin-top:30px">
       <div class="row">
         <div class="col-sm-4">
