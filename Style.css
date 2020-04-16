@@ -15,3 +15,10 @@ H2{
   font-size: 24px;
   font-style: none;
 }
+
+H5{
+  color: #ffffff;
+  font-family:roboto sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
