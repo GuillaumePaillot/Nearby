@@ -6,3 +6,11 @@
 .navbar-expand-md {
   background-color: blue;
   }
+
+.btn-primary {color: #040c3d}
+
+H2{
+  color: #040c3d;
+  font-family: "work sans" sans-serif;
+  font-size: 20px;
+}
