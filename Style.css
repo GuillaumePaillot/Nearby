@@ -7,10 +7,11 @@
   background-color: blue;
   }
 
-.btn-primary {color: #040c3d}
+.Button-primary {color: #040c3d}
 
 H2{
-  color: #040c3d;
+  color: #040004;
   font-family: "work sans" sans-serif;
   font-size: 20px;
+  font-style: italic;
 }
