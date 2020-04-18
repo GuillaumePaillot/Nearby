@@ -40,6 +40,93 @@
     <div class="card-img-overlay">
       <h5 class="card-title" style="margin-top:180px">Nearby</h5>
       <p class="card-text">Ton cours de sport où tu veux, quand tu veux</p>
+
+      <body>
+      <section class="wrapper">
+          <h1 class="sentence">Ton cours de sport&nbsp;
+          <div class="slidingVertical">
+            <span> où tu veux&nbsp;</span>
+            <span> quand tu veux&nbsp;</span>
+          </div>
+        </h1>
+      </section>
+      </body>
+
+      <style>
+
+      /*Sentence*/
+      .sentence{
+           color: white;
+           font-size:35px;
+        font-weight: 600;
+           text-align: center;
+      }
+      /*Wrapper*/
+      .wrapper{
+          font-family: 'Work sans', sans-serif;
+          margin: 10px auto;
+          padding: 40px 40px;
+          position: relative;
+          width: 70%;
+      }
+
+      /*Vertical Sliding*/
+      .slidingVertical{
+      	display: inline;
+      	text-indent: 8px;
+      }
+      .slidingVertical span{
+      	animation: topToBottom 6s linear infinite 0s;
+      	-ms-animation: topToBottom 6s linear infinite 0s;
+      	-webkit-animation: topToBottom 6s linear infinite 0s;
+      	background-color: #040C3D;
+          color: #FFFFFF;
+      	opacity: 0;
+      	overflow: hidden;
+      	position: absolute;
+      }
+      .slidingVertical span:nth-child(2){
+      	animation-delay: 2s;
+      	-ms-animation-delay: 2s;
+      	-webkit-animation-delay: 2s;
+      }
+      .slidingVertical span:nth-child(3){
+      	animation-delay: 4s;
+      	-ms-animation-delay: 4s;
+      	-webkit-animation-delay: 4s;
+      }
+
+      /*topToBottom Animation*/
+      @-moz-keyframes topToBottom{
+      	0% { opacity: 0; }
+      	5% { opacity: 0; -moz-transform: translateY(-50px); }
+      	10% { opacity: 1; -moz-transform: translateY(0px); }
+      	25% { opacity: 1; -moz-transform: translateY(0px); }
+      	30% { opacity: 0; -moz-transform: translateY(50px); }
+      	80% { opacity: 0; }
+      	100% { opacity: 0; }
+      }
+      @-webkit-keyframes topToBottom{
+      	0% { opacity: 0; }
+      	5% { opacity: 0; -webkit-transform: translateY(-50px); }
+      	10% { opacity: 1; -webkit-transform: translateY(0px); }
+      	25% { opacity: 1; -webkit-transform: translateY(0px); }
+      	30% { opacity: 0; -webkit-transform: translateY(50px); }
+      	80% { opacity: 0; }
+      	100% { opacity: 0; }
+      }
+      @-ms-keyframes topToBottom{
+      	0% { opacity: 0; }
+      	5% { opacity: 0; -ms-transform: translateY(-50px); }
+      	10% { opacity: 1; -ms-transform: translateY(0px); }
+      	25% { opacity: 1; -ms-transform: translateY(0px); }
+      	30% { opacity: 0; -ms-transform: translateY(50px); }
+      	80% { opacity: 0; }
+      	100% { opacity: 0; }
+      }
+
+      </style>
+
     </div>
   </div>
 
