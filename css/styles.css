@@ -6,3 +6,19 @@
 .navbar-expand-md {
   background-color: blue;
   }
+
+.Button-primary {color: #040c3d}
+
+H2{
+  color: #FAE232;
+  font-family:roboto sans-serif;
+  font-size: 24px;
+  font-style: none;
+}
+
+h5{
+  color: #ffffff;
+  font-family:sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
