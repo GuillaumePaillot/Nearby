@@ -24,6 +24,12 @@ h5{
 }
 
 
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
 html {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
@@ -37,13 +43,6 @@ html {
   .background {
     padding: 0 0 25px;
   }
-}
-
-.container {
-  margin: 0 auto;
-  padding: 50px 0 0;
-  max-width: 960px;
-  width: 100%;
 }
 
 .panel {
