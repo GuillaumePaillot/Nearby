@@ -36,6 +36,78 @@ h5{
   padding: 8px;
 }
 
+
+.phrase{
+width: auto;
+height: auto;
+position: relative;
+color: #040C3D;
+background-color: none;
+  text-align: left;
+  animation-duration: 5s;
+animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.phrase1{
+animation-name: firstmove;
+
+}
+.phrase2{
+animation-name: secondmove;
+}
+.phrase3{
+animation-name: thirdmove;
+}
+.phrase4{
+text-align:center;
+  animation-name: fourthmove;
+}
+
+@keyframes firstmove {
+  0% {
+    left:0;
+    opacity:0;
+      }
+25%,50%,75%,100% {
+    left:37%;
+    opacity:1;
+    }
+}
+
+@keyframes secondmove {
+  0%,25% {
+    left:0;
+    opacity:0;
+      }
+50%,75%,100% {
+    left:37%;
+    opacity:1;
+    }
+}
+ @keyframes thirdmove {
+  0%,25%,50% {
+    left:0;
+    opacity:0;
+      }
+75%,100% {
+    left:37%;
+    opacity:1;
+    }
+}
+
+@keyframes fourthmove {
+  0%,25%,50%,75% {
+    bottom:0;
+    opacity:0;
+      }
+100% {
+    bottom:2vw;
+    opacity:1;
+    }
+}
+
+
 html {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
