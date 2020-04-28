@@ -158,3 +158,9 @@ html {
 .pricing-button.is-featured:active {
   background-color: #269aff;
 }
+
+
+.th {
+  text-align: center;
+}
+.td{text-align: center}
