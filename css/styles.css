@@ -10,7 +10,7 @@
 .Button-primary {color: #040c3d}
 
 H2{
-  color: #FAE232;
+  color: #040c3d;
   font-family:roboto sans-serif;
   font-size: 24px;
   font-style: none;
@@ -25,6 +25,12 @@ h5{
 
 
 .columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.table-bordered {
   float: left;
   width: 33.3%;
   padding: 8px;
