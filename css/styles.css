@@ -41,6 +41,7 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
+  text-align: center;
 }
 
 @media (min-width: 900px) {
@@ -158,9 +159,3 @@ html {
 .pricing-button.is-featured:active {
   background-color: #269aff;
 }
-
-
-th {
-  text-align: center;
-}
-td{text-align: center}
