@@ -3,9 +3,10 @@
   background: #aaa;
 }
 
-.navbar-expand-md {
-  background-color: blue;
+.navbar {
+  background-color: #040c3d !important;
   }
+
 
 .Button-primary {color: #040c3d}
 
